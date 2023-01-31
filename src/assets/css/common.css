@@ -1,0 +1,44 @@
+.sidebar {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.sidebar-mini .main-sidebar .nav-link {
+  width: 100%;
+}
+
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active {
+  background-color: #18A2B8;
+  border-left: 3px solid #FFC108;
+  color: #fff;
+}
+
+.nav-pills .nav-link {
+  border-radius: 0;
+}
+
+.nav-sidebar>li.menu-open {
+  background-color: #23272b;
+}
+
+.nav-treeview>li.nav-item>.nav-link.active {
+  background-color: transparent !important;
+  color: #00ffea !important;
+}
+
+.nav-treeview>li.nav-item>.nav-link:hover {
+  background-color: transparent !important;
+}
+
+.nav-treeview>li.nav-item>.nav-link, .nav-treeview>li.nav-item>.nav-link.active {
+  margin-left: 8%;
+}
+
+.sidebar-collapse.sidebar-mini .main-sidebar .nav-sidebar .nav-link {
+  width: 100%;
+}
+
+.ag-grid-search {
+  height: 30px;
+  line-height: 1;
+}
